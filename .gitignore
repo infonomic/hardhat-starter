@@ -1,0 +1,28 @@
+.idea
+.vscode
+node_modules
+deployment-localhost.json
+deployment-localhost-NFLFirstBuyerV1.json
+deployment-localhost-NFLMarketV1.json
+deployment-testnet.json
+deployment-testnet-NFLFirstBuyerV1.json
+deployment-testnet-NFLMarketV1.json
+deployment-mainnet.json
+deployment-mainnet-NFLFirstBuyerV1.json
+deployment-mainnet-NFLMarketV1.json
+config/default.env
+.env
+
+#Hardhat files
+cache
+artifacts
+assets
+data
+nfl-media
+nfl-metadata
+
+# Secrets
+.binance_mainnet_mnemonic
+.binance_mainnet_private_key
+.binance_testnet_mnemonic
+.binance_testnet_private_key
