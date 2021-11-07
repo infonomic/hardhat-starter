@@ -25,7 +25,7 @@ contract TokenV1 is ERC20, ERC20Burnable, Ownable
 
     // Sink
     fallback() external payable {
-      revert();
+      revert("Unsupported transaction");
     }
 
 }
