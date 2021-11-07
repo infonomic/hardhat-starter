@@ -117,6 +117,6 @@ contract MarketV1 is EIP712, AccessControl, ReentrancyGuard {  // Maybe Reentran
 
   // Sink
   fallback() external {
-    revert();
+    revert("Unsupported transaction");
   }
 }
